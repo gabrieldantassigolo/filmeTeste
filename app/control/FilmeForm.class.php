@@ -23,7 +23,7 @@ class FilmeForm extends TPage
         $id->setEditable(FALSE);
         $duracao->setMask('999');
         
-        $id_suporte->addItems(array(1=> 'DVD', 2=> 'Blu-ray'));
+        $id_suporte->addItems(array(1=> 'DVD', 2=> 'Blu-ray'));//lasqueira
         $id_genero->addItems(array(1=> 'Musical', 2=> 'Comédia', 3=> 'Aventura'));
         
         $this->form->addQuickField('ID', $id, 50);
